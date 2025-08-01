@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Crash Detection</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Car Crash Detection</string>
+    <string name="main_subtitle">Emergency Response System</string>
+    <string name="publisher_title">Emergency Publisher</string>
+    <string name="publisher_description">Send crash alerts and emergency data</string>
+    <string name="subscriber_title">Emergency Response</string>
+    <string name="subscriber_description">Receive alerts and respond to emergencies</string>
+    <string name="version_info">Version 1.0</string>
+    
+    <!-- Publisher Activity -->
+    <string name="publisher_activity_title">Emergency Publisher</string>
+    <string name="system_status">System Status</string>
+    <string name="mqtt_connection">MQTT Connection:</string>
+    <string name="location_services">Location Services:</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting...</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="emergency_button_text">SOS</string>
+    <string name="emergency_button_hint">Tap to send emergency alert</string>
+    <string name="controls_title">Controls</string>
+    <string name="location_sharing">Location Sharing</string>
+    <string name="setup_medical_profile">Setup Medical Profile</string>
+    <string name="simulate_crash">Simulate Crash</string>
+    <string name="information_title">Information</string>
+    <string name="information_text">• Ensure location services are enabled\n• Complete medical profile for faster response\n• Use simulation for testing purposes\n• Emergency alerts are sent to all responders</string>
+    
+    <!-- Subscriber Activity -->
+    <string name="subscriber_activity_title">Emergency Response</string>
+    <string name="incident_count_format">%d Active Incidents</string>
+    <string name="no_incidents_title">No Active Incidents</string>
+    <string name="no_incidents_description">When new crash alerts are received, they will appear here</string>
+    <string name="new_crash_alert">New Crash Alert</string>
+    <string name="incident_details">Incident Details</string>
+    <string name="navigate">Navigate</string>
+    <string name="close">Close</string>
+    
+    <!-- Emergency Active Activity -->
+    <string name="emergency_alert_sent">EMERGENCY ALERT SENT</string>
+    <string name="help_on_way">Help is on the way!</string>
+    <string name="auto_cancel_in">Auto-cancel in</string>
+    <string name="seconds">seconds</string>
+    <string name="location_sharing_title">Location Sharing</string>
+    <string name="location_sharing_on">Location Sharing: ON</string>
+    <string name="location_sharing_off">Location Sharing: OFF</string>
+    <string name="cancel_emergency">Cancel Emergency</string>
+    
+    <!-- Profile Setup Activity -->
+    <string name="profile_setup_title">Medical Profile</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="age_optional">Age (optional)</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="allergies">Allergies</string>
+    <string name="add_custom_allergy">Add custom allergy</string>
+    <string name="add">Add</string>
+    <string name="medical_conditions">Medical Conditions</string>
+    <string name="add_medical_condition">Add medical condition</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="emergency_contact_name">Emergency Contact Name</string>
+    <string name="emergency_contact_phone">Emergency Contact Phone</string>
+    <string name="clear">Clear</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_saved">Profile saved successfully</string>
+    <string name="form_cleared">Form cleared</string>
+    
+    <!-- Dialog Titles -->
+    <string name="medical_profile_setup">Medical Profile Setup</string>
+    <string name="simulate_crash_title">Simulate Crash</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Error Messages -->
+    <string name="location_not_available">Location not available</string>
+    <string name="not_connected_to_broker">Not connected to MQTT broker</string>
+    <string name="failed_to_publish">Failed to publish crash alert</string>
+    <string name="failed_to_connect">Failed to connect to MQTT broker</string>
+    <string name="permissions_not_granted">Location permissions not granted</string>
+    
+    <!-- Success Messages -->
+    <string name="crash_alert_sent">Crash alert sent successfully</string>
+    <string name="simulated_crash_sent">Simulated crash sent: %s</string>
+    <string name="location_updates_started">Location updates started</string>
+    <string name="location_updates_stopped">Location updates stopped</string>
+    
+    <!-- Validation Messages -->
+    <string name="name_validation_error">Name must be at least 2 characters</string>
+    <string name="age_validation_error">Age must be between 1 and 120</string>
+    <string name="contact_validation_error">Emergency contact must be at least 3 characters</string>
+    
+    <!-- Map Related -->
+    <string name="crash_incident">Crash Incident</string>
+    <string name="my_location">My Location</string>
+    <string name="refresh">Refresh</string>
+    
+    <!-- Navigation -->
+    <string name="nav_map">Map</string>
+    <string name="nav_list">List</string>
+    
+    <!-- Blood Groups -->
+    <string name="blood_group_a_positive">A+</string>
+    <string name="blood_group_a_negative">A-</string>
+    <string name="blood_group_b_positive">B+</string>
+    <string name="blood_group_b_negative">B-</string>
+    <string name="blood_group_ab_positive">AB+</string>
+    <string name="blood_group_ab_negative">AB-</string>
+    <string name="blood_group_o_positive">O+</string>
+    <string name="blood_group_o_negative">O-</string>
+    
+    <!-- Vehicle Types -->
+    <string name="vehicle_car">Car</string>
+    <string name="vehicle_motorcycle">Motorcycle</string>
+    <string name="vehicle_truck">Truck</string>
+    <string name="vehicle_bus">Bus</string>
+    <string name="vehicle_van">Van</string>
+    <string name="vehicle_suv">SUV</string>
+    <string name="vehicle_sedan">Sedan</string>
+    
+    <!-- Common Allergies -->
+    <string name="allergy_peanuts">Peanuts</string>
+    <string name="allergy_shellfish">Shellfish</string>
+    <string name="allergy_penicillin">Penicillin</string>
+    <string name="allergy_latex">Latex</string>
+    <string name="allergy_dairy">Dairy</string>
+    <string name="allergy_eggs">Eggs</string>
+    <string name="allergy_soy">Soy</string>
+    <string name="allergy_wheat">Wheat</string>
+    <string name="allergy_tree_nuts">Tree Nuts</string>
+    <string name="allergy_fish">Fish</string>
+    <string name="allergy_sulfites">Sulfites</string>
+    <string name="allergy_aspirin">Aspirin</string>
+    <string name="allergy_ibuprofen">Ibuprofen</string>
+    <string name="allergy_none">None</string>
+    
+    <!-- Medical Conditions -->
+    <string name="condition_diabetes">Diabetes</string>
+    <string name="condition_hypertension">Hypertension</string>
+    <string name="condition_asthma">Asthma</string>
+    <string name="condition_heart_disease">Heart Disease</string>
+    <string name="condition_epilepsy">Epilepsy</string>
+    <string name="condition_anemia">Anemia</string>
+    <string name="condition_arthritis">Arthritis</string>
+    <string name="condition_depression">Depression</string>
+    <string name="condition_anxiety">Anxiety</string>
+    <string name="condition_none">None</string>
+    
+    <!-- Severity Levels -->
+    <string name="severity_high">HIGH</string>
+    <string name="severity_medium">MEDIUM</string>
+    <string name="severity_low">LOW</string>
+    
+    <!-- Timestamps -->
+    <string name="timestamp_format">yyyy-MM-dd HH:mm:ss</string>
+    
+    <!-- MQTT Topics -->
+    <string name="mqtt_crash_alerts_topic">crash/alerts/</string>
+    <string name="mqtt_crash_responses_topic">crash/responses/</string>
+    
+    <!-- Default Values -->
+    <string name="default_region">DEFAULT</string>
+    <string name="default_status">ACTIVE</string>
+    <string name="unknown_name">Unknown</string>
+    <string name="unknown_gender">Unknown</string>
+    
+    <!-- Accessibility -->
+    <string name="content_description_emergency_icon">Emergency icon</string>
+    <string name="content_description_location_icon">Location icon</string>
+    <string name="content_description_profile_icon">Profile icon</string>
+    <string name="content_description_simulation_icon">Simulation icon</string>
+    <string name="content_description_map_icon">Map icon</string>
+    <string name="content_description_list_icon">List icon</string>
+    <string name="content_description_my_location">My location button</string>
+    <string name="content_description_refresh">Refresh button</string>
+</resources> 

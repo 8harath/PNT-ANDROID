@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#1B365D</color>
+    <color name="primary_blue_light">#2A4A7A</color>
+    <color name="primary_blue_dark">#0F1F3A</color>
+    
+    <!-- Emergency Colors -->
+    <color name="error_red">#FF3B30</color>
+    <color name="error_red_light">#FF6B61</color>
+    <color name="error_red_dark">#CC2E26</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#34C759</color>
+    <color name="warning_amber">#FF9500</color>
+    <color name="info_blue">#007AFF</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#F2F2F7</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_tertiary">#C7C7CC</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#000000</color>
+    
+    <!-- Publisher Card Background -->
+    <color name="publisher_card_start">#FF3B30</color>
+    <color name="publisher_card_end">#FF6B61</color>
+    
+    <!-- Subscriber Card Background -->
+    <color name="subscriber_card_start">#1B365D</color>
+    <color name="subscriber_card_end">#2A4A7A</color>
+    
+    <!-- Emergency Background -->
+    <color name="emergency_background">#FF3B30</color>
+    <color name="emergency_overlay">#80000000</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#1B365D</color>
+    <color name="bottom_nav_unselected">#8E8E93</color>
+    
+    <!-- Map Colors -->
+    <color name="map_primary">#1B365D</color>
+    <color name="map_secondary">#34C759</color>
+    
+    <!-- System Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Material Design Colors -->
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_red_500">#F44336</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_orange_500">#FF9800</color>
+    <color name="material_gray_500">#9E9E9E</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1B365D</color>
+    <color name="gradient_center">#2A4A7A</color>
+    <color name="gradient_end">#3A5A8A</color>
+    
+    <!-- Animation Colors -->
+    <color name="pulse_color">#FF3B30</color>
+    <color name="ripple_color">#1B365D</color>
+    
+    <!-- Status Indicator Colors -->
+    <color name="status_online">#34C759</color>
+    <color name="status_offline">#FF3B30</color>
+    <color name="status_connecting">#FF9500</color>
+    
+    <!-- Input Field Colors -->
+    <color name="input_focused">#1B365D</color>
+    <color name="input_unfocused">#C7C7CC</color>
+    <color name="input_error">#FF3B30</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#1B365D</color>
+    <color name="button_secondary">#F2F2F7</color>
+    <color name="button_emergency">#FF3B30</color>
+    <color name="button_disabled">#C7C7CC</color>
+</resources> 

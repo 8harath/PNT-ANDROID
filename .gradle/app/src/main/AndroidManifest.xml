@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarCrashDetection"
+        tools:targetApi="31">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_GOOGLE_MAPS_API_KEY" />
+
+        <!-- MQTT Service -->
+        <service android:name=".services.MQTTService" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CarCrashDetection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Publisher Activity -->
+        <activity
+            android:name=".activities.PublisherActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CarCrashDetection" />
+
+        <!-- Subscriber Activity -->
+        <activity
+            android:name=".activities.SubscriberActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CarCrashDetection" />
+
+        <!-- Profile Setup Activity -->
+        <activity
+            android:name=".activities.ProfileSetupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CarCrashDetection" />
+
+        <!-- Emergency Active Activity -->
+        <activity
+            android:name=".activities.EmergencyActiveActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CarCrashDetection.Emergency"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest> 

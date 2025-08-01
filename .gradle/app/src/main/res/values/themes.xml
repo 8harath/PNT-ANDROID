@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CarCrashDetection" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/error_red</item>
+        <item name="colorSecondaryVariant">@color/error_red_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Background colors. -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/background_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Text colors. -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        
+        <!-- Error colors. -->
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Custom attributes. -->
+        <item name="colorSuccess">@color/success_green</item>
+        <item name="colorWarning">@color/warning_amber</item>
+        <item name="colorInfo">@color/info_blue</item>
+        
+        <!-- Typography. -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CarCrashDetection.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.CarCrashDetection.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.CarCrashDetection.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.CarCrashDetection.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.CarCrashDetection.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.CarCrashDetection.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CarCrashDetection.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.CarCrashDetection.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.CarCrashDetection.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.CarCrashDetection.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.CarCrashDetection.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.CarCrashDetection.LabelSmall</item>
+        
+        <!-- Shape. -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.CarCrashDetection.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CarCrashDetection.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CarCrashDetection.LargeComponent</item>
+        
+        <!-- Animation. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Emergency theme for emergency active activity. -->
+    <style name="Theme.CarCrashDetection.Emergency" parent="Theme.CarCrashDetection">
+        <item name="android:statusBarColor">@color/error_red</item>
+        <item name="android:navigationBarColor">@color/error_red</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/error_red</item>
+    </style>
+
+    <!-- Typography styles. -->
+    <style name="TextAppearance.CarCrashDetection.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.CarCrashDetection.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Shape styles. -->
+    <style name="ShapeAppearance.CarCrashDetection.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.CarCrashDetection.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.CarCrashDetection.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Window animation styles. -->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!-- Custom button styles. -->
+    <style name="Widget.CarCrashDetection.Button.Emergency" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/error_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">60dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.CarCrashDetection.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="Widget.CarCrashDetection.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_blue</item>
+        <item name="android:textColor">@color/primary_blue</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Custom card styles. -->
+    <style name="Widget.CarCrashDetection.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Widget.CarCrashDetection.Card.Emergency" parent="Widget.CarCrashDetection.Card">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Custom text field styles. -->
+    <style name="Widget.CarCrashDetection.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_focused</item>
+        <item name="hintTextColor">@color/input_focused</item>
+        <item name="startIconTint">@color/primary_blue</item>
+        <item name="endIconTint">@color/primary_blue</item>
+    </style>
+
+    <!-- Custom chip styles. -->
+    <style name="Widget.CarCrashDetection.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/primary_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">@color/primary_blue</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Custom switch styles. -->
+    <style name="Widget.CarCrashDetection.Switch" parent="Widget.Material3.Switch">
+        <item name="trackTint">@color/switch_track_color</item>
+        <item name="thumbTint">@color/switch_thumb_color</item>
+    </style>
+
+    <!-- Custom bottom navigation styles. -->
+    <style name="Widget.CarCrashDetection.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="android:background">@color/background_white</item>
+        <item name="elevation">8dp</item>
+    </style>
+</resources> 
